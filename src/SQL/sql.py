@@ -10,3 +10,5 @@ my_cursor.execute("select * from student where college='Boston University'")
 
 for i in my_cursor:
     print(i[0])
+
+
